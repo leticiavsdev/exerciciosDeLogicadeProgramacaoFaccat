@@ -1,0 +1,29 @@
+Algoritmo "Faccat-18"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor   :Jailson
+// Descrição   :18) Ler o ano atual e o ano de nascimento de uma pessoa.
+//Escrever uma mensagem que diga se ela poderá ou não votar este ano (não é
+//necessário considerar o mês em que a pessoa nasceu)
+
+// Aluno : Leticia Vitoria
+// Data atual  : 26/09/2026
+Var
+   // Seção de Declarações das variáveis
+   idade, anoAtual, anonNascimento: inteiro
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Digite sua idade em anos: ")
+   leia(anonNascimento)
+   Escreval("Qual é o ano atual: ")
+   leia(anoAtual)
+   idade <- anoAtual - anonNascimento
+   se idade >= 16 entao
+      se idade >= 18 entao
+         Escreval("Poderá votar e o voto é obrigatório!")
+      senao
+         Escreval("Poderá votar, mas o voto não é obrigatório!")
+      fimse
+   senao
+      Escreval("Não poderá votar este ano!")
+   fimse
+Fimalgoritmo
