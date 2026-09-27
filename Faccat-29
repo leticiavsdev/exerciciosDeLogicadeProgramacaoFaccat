@@ -1,0 +1,32 @@
+Algoritmo "Faccat-29"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor    : Jailson
+// Descrição    : 29) Ler 3 valores (considere que não serão informados valores
+// iguais) e escrever a soma dos 2 maiores
+// Aluno        : Leticia Vitoria
+// Data atual   : 26/09/2026
+
+Var
+   // Seção de Declarações das variáveis
+   valor1, valor2, valor3, soma:inteiro
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreva("Valor 1: ")
+   leia(valor1)
+   escreva("Valor 2: ")
+   leia(valor2)
+   escreva("Valor 3: ")
+   leia(valor3)
+   se (valor1 < valor2) e (valor1 < valor3) entao
+      soma <- valor2 + valor3
+   senao
+      se (valor2 < valor1) e (valor2 < valor3) entao
+         soma <- valor1 + valor3
+      senao
+         soma <- valor1 + valor2
+      fimse
+   fimse
+
+   escreval("Soma dos maiores valores é: ", soma)
+
+Fimalgoritmo
