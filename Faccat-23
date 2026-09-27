@@ -1,0 +1,36 @@
+Algoritmo "Faccat-23"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor   :Jailson
+// Descrição   :23) Para o enunciado a seguir foi elaborado um algoritmo em
+//Português Estruturado que contém erros, identifique os erros no algoritmo
+//apresentado abaixo: Enunciado: Tendo como dados de entrada o nome, a altura
+//e o sexo (M ou F) de uma pessoa, calcule e mostre seu peso ideal, utilizando
+//as seguintes fórmulas:
+
+// Aluno : Leticia Vitoria
+// Data atual  : 26/09/2026
+Var
+   // Seção de Declarações das variáveis
+   nome, sexo : caractere
+   altura, pesoIdeal : real
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Digite o seu nome: ")
+   leia(nome)
+
+   Escreval("Digite o seu sexo (M para Masculino ou F para Feminino): ")
+   leia(sexo)
+
+   Escreval("Digite sua altura: ")
+   leia(altura)
+    //Tive que dividir por 10 pois não esta funcionando no visualg o 72,7
+   se sexo = "M" entao
+      pesoIdeal <- (727 * altura / 10) - 58
+   senao
+      pesoIdeal <- (621 * altura / 10) - (447 / 10)
+   fimse
+
+   Escreval("Nome: ", nome)
+   Escreval("Peso ideal: ", pesoIdeal, " kg")
+Fimalgoritmo
