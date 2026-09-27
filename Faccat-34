@@ -1,0 +1,36 @@
+Algoritmo "Faccat-34"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor    : Jailson
+// Descrição    : 34) Este algoritmo calcula um valor com base em dois números
+// inseridos e classifica o resultado final numa de três categorias (A, B ou C)
+// de acordo com o seu tamanho. No fim, ele exibe na tela o número calculado e
+// a letra correspondente à categoria em que ele se enquadra.
+// Aluno        : Leticia Vitoria
+// Data atual   : 26/09/2026
+
+Var
+   // Seção de Declarações das variáveis
+   x, y, z: real
+   resposta: caractere
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreva("Digite o valor de x: ")
+   leia(x)
+   escreva("Digite o valor de y: ")
+   leia(y)
+   // Cálculo da variável z
+   z <- (x * y) + 5
+   // Estrutura condicional para determinar a resposta
+   se z <= 0 entao
+      resposta <- "A"
+   senao
+      se z <= 100 entao
+         resposta <- "B"
+      senao
+         resposta <- "C"
+      fimse
+   fimse
+   // Exibição dos resultados
+   escreval("z = ", z)
+   escreval("Resposta = ", resposta)
+Fimalgoritmo
