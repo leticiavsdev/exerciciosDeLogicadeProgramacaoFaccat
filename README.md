@@ -2,7 +2,7 @@ Exercícios de Lógica de Programação — Apostila Faccat
 📝 Descrição do Projeto
 Este repositório contém a resolução prática dos exercícios propostos pela apostila de Lógica de Programação da Faccat (Faculdades Integradas de Taquara).
 
-O objetivo principal deste projeto é consolidar os fundamentos da lógica de computação, estruturação de algoritmos, controle de fluxo (estruturas condicionais e de repetição) e manipulação de variáveis, utilizando a sintaxe do VisuAlg / Pseudocódigo.
+O objetivo principal deste projeto é consolidar os fundamentos da lógica de computação, estruturação de algoritmos, controle de fluxo (estruturas condicionais e de repetição) e manipulação de variáveis, utilizando a sintaxe do VisuAlg..
 
 🎯 Objetivos de Aprendizagem
 Compreensão e aplicação de variáveis e tipos de dados (inteiro, real, caractere, lógico).
