@@ -1,0 +1,46 @@
+Algoritmo "Faccat-37"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor    : Jailson
+// Descrição    : Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25,00, receberá
+//ainda um desconto de 10% sobre este total. Escreva um algoritmo para ler a quantidade (em Kg) de
+//morangos e a quantidade (em Kg) de maças adquiridas e escreva o valor a ser pago pelo cliente.
+//R$ 2,90.
+// Aluno        : Leticia Vitoria
+// Data atual   : 26/09/2026
+
+Var
+   // Seção de Declarações das variáveis
+   kgMorango, kgMaca, kgTotal: real
+   precoMorango, precoMaca: real
+   valorMorango, valorMaca, valorTotal: real
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreva("Digite a quantidade (em Kg) de morangos: ")
+   leia(kgMorango)
+   escreva("Digite a quantidade (em Kg) de maçãs: ")
+   leia(kgMaca)
+   // Definição do preço do morango
+   se kgMorango <= 5 entao
+      precoMorango <- 2.50
+   senao
+      precoMorango <- 2.20
+   fimse
+   // Definição do preço da maçã
+   se kgMaca <= 5 entao
+      precoMaca <- 1.80
+   senao
+      precoMaca <- 1.50
+   fimse
+
+   valorMorango <- kgMorango * precoMorango
+   valorMaca <- kgMaca * precoMaca
+   valorTotal <- valorMorango + valorMaca
+   kgTotal <- kgMorango + kgMaca
+
+   // Verificação do desconto adicional de 10%
+   se (kgTotal > 8) ou (valorTotal > 25.00) entao
+      valorTotal <- valorTotal * 0.90
+   fimse
+
+   escreval("Valor total a ser pago: R$ ", valorTotal:0:2)
+Fimalgoritmo
