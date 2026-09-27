@@ -1,0 +1,26 @@
+Algoritmo "Faccat-16"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor   :Jailson
+// Descrição   :16) As maçãs custam R$ 1,30 cada se forem compradas menos de
+//uma dúzia, e R$ 1,00 se forem compradas pelo menos 12. Escreva um programa
+//que leia o número de maçãs compradas, calcule e escreva o custo total da
+//compra.
+
+// Aluno : Leticia Vitoria
+// Data atual  : 26/09/2026
+Var
+   // Seção de Declarações das variáveis
+   total1, macas, total2: real
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Quantas macãs foram compradas: ")
+   leia(macas)
+   se macas >= 12 entao
+      total1 <- macas * 1.0
+      Escreval("O valor a se pagar é: R$ ", total1)
+   senao
+      total2 <- macas * 1.30
+      Escreval("O valor a se pagar é: R$ ", total2)
+   fimse
+
+Fimalgoritmo
