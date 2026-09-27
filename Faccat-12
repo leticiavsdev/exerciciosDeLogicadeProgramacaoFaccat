@@ -1,0 +1,21 @@
+Algoritmo "Faccat-12"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor   :Jailson
+// Descrição   :12) Escreva um algoritmo para ler uma temperatura em graus
+//Fahrenheit, calcular e escrever o valor correspondente em graus Celsius
+//(baseado na fórmula abaixo):
+// Aluno : Leticia Vitoria
+// Data atual  : 26/09/2026
+Var
+   // Seção de Declarações das variáveis
+   fahrenheit, celsius: real
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Digite a temperatura em Fahrenheit: ")
+   leia(fahrenheit)
+   celsius <- (fahrenheit - 32) * 5 / 9
+   limpatela
+   Escreval("A temperatura em Celsius é: ", celsius, " °C")
+
+
+Fimalgoritmo
