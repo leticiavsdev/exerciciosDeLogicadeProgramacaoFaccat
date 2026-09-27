@@ -1,0 +1,34 @@
+Algoritmo "Faccat-28"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor    : Jailson
+// Descrição    : 28) Ler 3 valores (considere que não serão informados valores
+//iguais) e escrever o maior deles
+// Aluno        : Leticia Vitoria
+// Data atual   : 26/09/2026
+
+Var
+   // Seção de Declarações das variáveis
+     valor1, valor2, valor3, maior:inteiro
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreva("Valor 1: ")
+   leia(valor1)
+   escreva("Valor 2: ")
+   leia(valor2)
+   escreva("Valor 3: ")
+   leia(valor3)
+   se valor1 > valor2 entao
+      maior <- valor1
+   senao
+      se valor2 > valor3 entao
+         maior <- valor2
+      senao
+         se valor3 > valor1 entao
+            maior <- valor3
+         fimse
+      fimse
+   fimse
+   Escreva("O maior valor é: ", maior)
+
+
+Fimalgoritmo
