@@ -1,0 +1,34 @@
+Algoritmo "Faccat-8"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor   :Jailson
+// Descrição   :8) Escreva um algoritmo para ler o número total de eleitores
+// de um município, o número de votos brancos, nulos e válidos. Calcular e
+//escrever o percentual que cada um representa em relação ao total
+//de eleitores.
+// Aluno : Leticia Vitoria
+// Data atual  : 26/09/2026
+Var
+   // Seção de Declarações das variáveis
+   totalEleitores, brancos, nulos, validos: inteiro
+   percentualBrancos, percentualNulos, percentualValidos: real
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Digite o número total de eleitores: ")
+   leia(totalEleitores)
+   Escreval("Digite o número de votos brancos: ")
+   leia(brancos)
+   Escreval("Digite o número de votos nulos: ")
+   leia(nulos)
+   Escreval("Digite o número de votos válidos: ")
+   leia(validos)
+   //Faz o cálculo do percentual para apresentar na tela
+   percentualBrancos <- (brancos * 100) / totalEleitores
+   percentualNulos <- (nulos * 100) / totalEleitores
+   percentualValidos <- (validos * 100) / totalEleitores
+   limpatela
+   Escreval("Percentual de votos brancos: ", percentualBrancos, "%")
+   Escreval("Percentual de votos nulos: ", percentualNulos, "%")
+   Escreval("Percentual de votos válidos: ", percentualValidos, "%")
+
+
+Fimalgoritmo
