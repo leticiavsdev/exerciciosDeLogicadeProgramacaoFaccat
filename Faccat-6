@@ -1,0 +1,22 @@
+Algoritmo "Faccat-6"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor   :Jailson
+// Descrição   :6) Escreva um algoritmo para ler as dimensões de um retângulo
+//(base e altura), calcular e escrever a área do retângulo.
+// Autor(a)    : Leticia Vitoria
+// Data atual  : 26/09/2026
+Var
+// Seção de Declarações das variáveis 
+    altura, base, dimensao: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+  Escreval("Escreva a altura do retângulo: ")
+  leia(altura)
+  Escreval("Escreva a base do retângulo: ")
+  leia(base)
+  dimensao <- base * altura //calculo simples da dimensão
+  Escreval("A dimensão é ", dimensao)
+  
+
+Fimalgoritmo
