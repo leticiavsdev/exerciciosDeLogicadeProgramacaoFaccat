@@ -1,0 +1,29 @@
+Algoritmo "Faccat-39"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor    : Jailson
+// Descrição    : 39) Avalia o resultado de expressões lógicas para
+// A = Verdadeiro, B = Verdadeiro e C = Falso.
+// Aluno        : Leticia Vitoria
+// Data atual   : 26/09/2026
+
+Var
+   // Seção de Declarações das variáveis
+   A, B, C: logico
+   resA, resB, resC: logico
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // Atribuição dos valores iniciais
+   A <- verdadeiro
+   B <- verdadeiro
+   C <- falso
+
+   // Avaliação das expressões
+   resA <- (A e B) ou (A xou B)
+   resB <- (A ou B) e (A e C)
+   resC <- A ou C e B xou A e nao B
+
+   // Exibição dos resultados
+   escreval("a) (A e B) ou (A xou B) = ", resA)
+   escreval("b) (A ou B) e (A e C) = ", resB)
+   escreval("c) A ou C e B xou A e não B = ", resC)
+Fimalgoritmo
