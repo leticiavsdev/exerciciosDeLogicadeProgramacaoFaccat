@@ -1,0 +1,35 @@
+Algoritmo "Faccat-25"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor    : Jailson
+// Descrição    : 25) Faça um algoritmo para ler: número da conta do cliente,
+//saldo, débito e crédito. Após, calcular e escrever o saldo atual (saldo
+//atual = saldo - débito + crédito). Também testar se saldo atual for maior
+//ou igual a zero escrever a mensagem 'Saldo Positivo', senão escrever a
+//mensagem 'Saldo Negativo'.
+// Aluno        : Leticia Vitoria
+// Data atual   : 26/09/2026
+
+Var
+   // Seção de Declarações das variáveis
+   numeroConta, saldo, debito, credito, saldoAtual: inteiro
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreva("Digite o número da conta do cliente: ")
+   Leia(numeroConta)
+   Escreva("Digite o saldo inicial: R$ ")
+   Leia(saldo)
+   Escreva("Digite o valor do débito: R$ ")
+   Leia(debito)
+   Escreva("Digite o valor do crédito: R$ ")
+   Leia(credito)
+   saldoAtual <- saldo - debito + credito
+
+   Escreval("Conta: ", numeroConta)
+   Escreval("Saldo Atual: R$ ", saldoAtual:4:2)
+
+   Se saldoAtual >= 0 Entao
+      Escreval("Mensagem: Saldo Positivo")
+   Senao
+      Escreval("Mensagem: Saldo Negativo")
+   Fimse
+Fimalgoritmo
