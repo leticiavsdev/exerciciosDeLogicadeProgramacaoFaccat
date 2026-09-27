@@ -1,0 +1,19 @@
+Algoritmo "Faccat-5"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor   :Jailson
+// Descrição   :5) Escreva um algoritmo para ler um valor (do teclado)
+//e escrever (na tela) o seu antecessor.
+// Autor(a)    : Leticia Vitoria
+// Data atual  : 26/09/2026
+Var
+// Seção de Declarações das variáveis 
+   valor, total: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+  Escreval("Escreva um numero: ")
+  leia(valor)
+  total <- valor - 1
+  Escreval("O antecessor é: ", total)
+
+Fimalgoritmo
