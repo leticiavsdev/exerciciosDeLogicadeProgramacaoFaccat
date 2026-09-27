@@ -1,0 +1,26 @@
+Algoritmo "Faccat-13"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor   :Jailson
+// Descrição   :13) Faça um algoritmo que leia três notas de um aluno,
+//calcule e escreva a média final deste aluno. Considerar que a média é
+//ponderada e que o peso das notas é 2, 3 e 5. Fórmula para o cálculo da
+//média final é
+// Aluno :  Leticia Vitoria
+// Data atual  : 26/09/2026
+Var
+   // Seção de Declarações das variáveis
+    nota1, nota2, nota3, media: real
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Digite a primeira nota: ")
+   leia(nota1)
+   Escreval("Digite a segunda nota: ")
+   leia(nota2)
+   Escreval("Digite a terceira nota: ")
+   leia(nota3)
+   media <- (nota1 * 2 + nota2 * 3 + nota3 * 5) / 10
+   limpatela
+   Escreval("A média final do aluno é: ", media)
+
+
+Fimalgoritmo
