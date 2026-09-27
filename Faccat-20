@@ -1,0 +1,26 @@
+Algoritmo "Faccat-20"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor   :Jailson
+// Descrição   :20) Ler dois valores (considere que não serão lidos valores
+//iguais) e escrevê-los em ordem crescente.
+
+// Aluno : Leticia Vitoria
+// Data atual  : 26/09/2026
+Var
+   // Seção de Declarações das variáveis
+   valor1, valor2: inteiro
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Digite o valor 1: ")
+   leia(valor1)
+   Escreval("Digite o valor 2: ")
+   leia(valor2)
+   se valor1 > valor2 entao
+      Escreval("O menor é: ", valor2)
+      Escreval("O maior é: ", valor1)
+   senao
+      Escreval("O menor é: ", valor1)
+      Escreval("O maior é: ", valor2)
+   fimse
+
+Fimalgoritmo
