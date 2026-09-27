@@ -1,0 +1,32 @@
+Algoritmo "Faccat-31"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor    : Jailson
+// Descrição    :31) Ler 3 valores (A, B e C) representando as medidas dos
+//lados de um triângulo e escrever se formam ou não um triângulo. OBS: para
+//formar um triângulo, o valor de cada lado deve ser menor que a soma
+//dos outros 2 lados.
+// Aluno        : Leticia Vitoria
+// Data atual   : 26/09/2026
+
+Var
+   // Seção de Declarações das variáveis
+   A, B, C : real
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+    Escreval("Digite o valor do lado A: ")
+   leia(A)
+
+   Escreval("Digite o valor do lado B: ")
+   leia(B)
+
+   Escreval("Digite o valor do lado C: ")
+   leia(C)
+
+   se (A < B + C) e (B < A + C) e (C < A + B) entao
+      Escreval("Os valores formam um triângulo.")
+   senao
+      Escreval("Os valores não formam um triângulo.")
+   fimse
+   
+Fimalgoritmo
