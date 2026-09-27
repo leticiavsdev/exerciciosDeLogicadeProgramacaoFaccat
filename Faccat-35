@@ -1,0 +1,47 @@
+Algoritmo "Faccat-35"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor    : Jailson
+// Descrição    : 35)Escreva um algoritmo que leia o número de litros vendidos
+//e o tipo de combustível (codificado da seguinte forma: A-álcool, G-gasolina)
+//, calcule e imprima o valor a ser pago pelo cliente sabendo-se
+//que o preço do litro da gasolina é R$ 3,30 e o preço do litro do álcool é
+//R$ 2,90.
+// Aluno        : Leticia Vitoria
+// Data atual   : 26/09/2026
+
+Var
+   // Seção de Declarações das variáveis
+   litros, precoLitro, desconto, valorTotal: real
+   combustivel: caractere
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreva("Digite o número de litros vendidos: ")
+   leia(litros)
+   escreva("Digite o tipo de combustível (A-Álcool, G-Gasolina): ")
+   leia(combustivel)
+   se (combustivel = "A") ou (combustivel= "a") entao
+      precoLitro <- 2.90
+      se litros <= 20 entao
+         desconto <- 0.03
+      senao
+         desconto <- 0.05
+      fimse
+   senao
+      se (combustivel = "G") ou (combustivel = "g") entao
+         precoLitro <- 3.30
+         se litros <= 20 entao
+            desconto <- 0.04
+         senao
+            desconto <- 0.06
+         fimse
+      senao
+         escreval("Tipo de combustível inválido!")
+      fimse
+   fimse
+
+   // Cálculo e exibição do valor total
+   se ((combustivel = "A") ou (combustivel = "a") ou (combustivel = "G") ou (combustivel = "g")) entao
+      valorTotal <- litros * (precoLitro * (1 - desconto))
+      escreval("Valor a ser pago: R$ ", valorTotal:0:2)
+   fimse
+Fimalgoritmo
