@@ -1,0 +1,24 @@
+Algoritmo "Faccat-27"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor    : Jailson
+// Descrição    : 27) Ler um valor e escrever se é positivo, negativo ou zero.
+// Aluno        : Leticia Vitoria
+// Data atual   : 26/09/2026
+
+Var
+   // Seção de Declarações das variáveis
+   valor: inteiro
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreva("Escreva um valor: ")
+   leia(valor)
+   se valor >= 1 entao
+      Escreva("O ", valor, " é possitivo!")
+   senao
+      se valor = 0 entao
+         Escreval("Valor é 0")
+      senao
+         Escreval("O ", valor , " é negativo!")
+      fimse
+   fimse
+Fimalgoritmo
