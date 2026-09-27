@@ -1,0 +1,31 @@
+Algoritmo "Faccat-11"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor   :Jailson
+// Descrição   :11) Uma revendedora de carros usados paga a seus funcionários
+//vendedores um salário fixo por mês, mais uma comissão também fixa para cada
+//carro vendido e mais 5% do valor das vendas por ele efetuadas. Escrever um
+//algoritmo que leia o número de carros por ele vendidos, o valor total de
+//suas vendas, o salário fixo e o valor que ele recebe por carro vendido.
+//Calcule e escreva o salário final do vendedor.
+// Aluno : Leticia Vitoria
+// Data atual  : 26/09/2026
+Var
+   // Seção de Declarações das variáveis
+   quantidadeCarros: inteiro
+   valorTotalVendas, salarioFixo, valorPorCarro, salarioFinal: real
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Digite a quantidade de carros vendidos: ")
+   leia(quantidadeCarros)
+   Escreval("Digite o valor total das vendas: ")
+   leia(valorTotalVendas)
+   Escreval("Digite o salário fixo: ")
+   leia(salarioFixo)
+   Escreval("Digite o valor recebido por carro vendido: ")
+   leia(valorPorCarro)
+   salarioFinal <- salarioFixo + (quantidadeCarros * valorPorCarro) + (valorTotalVendas * 5 / 100)
+   limpatela
+   Escreval("O salário final do vendedor é: R$ ", salarioFinal)
+
+
+Fimalgoritmo
