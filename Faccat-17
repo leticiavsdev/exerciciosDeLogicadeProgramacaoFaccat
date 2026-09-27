@@ -1,0 +1,30 @@
+Algoritmo "Faccat-17"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor   :Jailson
+// Descrição   :17) Ler as notas da 1a. e 2a. avaliações de um aluno. Calcular
+// a média aritmética simples e escrever uma mensagem que diga se o aluno foi
+//ou não aprovado (considerar que nota igual ou maior que 6 o aluno é aprovado)
+//. Escrever também a média calculada.
+
+// Aluno : Leticia Vitoria
+// Data atual  : 26/09/2026
+Var
+   // Seção de Declarações das variáveis
+   i, nota, soma, total: real
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   repita
+      Escreval("Digite a nota da prova ", i + 1, ":")
+      leia(nota)
+      soma <- nota + soma
+
+      i <- i + 1
+   ate i = 2
+   total<- soma / 2
+   se total >= 6 entao
+      Escreval("Você foi aprovado com a média: ", total)
+   senao
+      Escreval("Você foi reprovado com a média: ", total)
+   fimse
+
+Fimalgoritmo
