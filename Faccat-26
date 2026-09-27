@@ -1,0 +1,35 @@
+Algoritmo "Faccat-26"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor    : Jailson
+// Descrição    : 26) Faça um algoritmo para ler: quantidade atual em estoque,
+//quantidade máxima em estoque e quantidade mínima em estoque de um produto.
+//Calcular e escrever a quantidade média ((quantidade média = quantidade
+//máxima + quantidade mínima)/2). Se a quantidade em estoque for maior ou
+//igual a quantidade média escrever a mensagem 'Não efetuar compra', senão
+//escrever a mensagem 'Efetuar compra'.
+// Aluno        : Leticia Vitoria
+// Data atual   : 26/09/2026
+
+Var
+   // Seção de Declarações das variáveis
+    qtdAtual, qtdMaxima, qtdMinima: inteiro
+   qtdMedia: real
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreva("Digite a quantidade atual em estoque: ")
+   Leia(qtdAtual)
+   Escreva("Digite a quantidade máxima em estoque: ")
+   Leia(qtdMaxima)
+   Escreva("Digite a quantidade mínima em estoque: ")
+   Leia(qtdMinima)
+
+   qtdMedia <- (qtdMaxima + qtdMinima) / 2
+
+   Escreval("Quantidade Média em Estoque: ", qtdMedia:4:1)
+
+   Se qtdAtual >= qtdMedia Entao
+      Escreval("Não efetuar compra")
+   Senao
+      Escreval("Efetuar compra")
+   Fimse
+Fimalgoritmo
