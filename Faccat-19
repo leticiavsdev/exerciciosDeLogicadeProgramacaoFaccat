@@ -1,0 +1,24 @@
+Algoritmo "Faccat-19"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor   :Jailson
+// Descrição   :19) Ler dois valores (considere que não serão lidos valores
+//iguais) e escrever o maior deles
+
+// Aluno : Leticia Vitoria
+// Data atual  : 26/09/2026
+Var
+   // Seção de Declarações das variáveis
+   valor1, valor2: inteiro
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Digite o valor 1: ")
+   leia(valor1)
+   Escreval("Digite o valor 2: ")
+   leia(valor2)
+   se valor1 > valor2 entao
+      Escreval("O maior é: ", valor1, " e o menor é: ", valor2)
+   senao
+      Escreval("O maior é: ", valor2, " e o menor é: ", valor1)
+   fimse
+   
+Fimalgoritmo
