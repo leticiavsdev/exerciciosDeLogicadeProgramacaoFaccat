@@ -1,0 +1,29 @@
+Algoritmo "Faccat-21"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor   :Jailson
+// Descrição   :21) Ler a hora de início e a hora de fim de um jogo de Xadrez
+//(considere apenas horas inteiras, sem os minutos) e calcule a duração do
+//jogo em horas, sabendo-se que o tempo máximo de duração do jogo é
+//de 24 horas e que o jogo pode iniciar em um dia e terminar no dia seguinte.
+
+// Aluno : Leticia Vitoria
+// Data atual  : 26/09/2026
+Var
+   // Seção de Declarações das variáveis
+   horaInicio, horaFinal, duracao: inteiro
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Horário de início da partida: ")
+   leia(horaInicio)
+   Escreval("Horário do fim do jogo: ")
+   leia(horaFinal)
+   se horaInicio < horaFinal entao
+      duracao <-  horaFinal - horaInicio
+      Escreval("A duração foi: ", duracao)
+   senao
+      duracao <- (24 - horaInicio) + horaFinal
+      Escreval("A duração foi: ", duracao)
+   fimse
+
+
+Fimalgoritmo
