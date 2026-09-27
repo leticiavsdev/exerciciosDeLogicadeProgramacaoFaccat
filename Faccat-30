@@ -1,0 +1,57 @@
+Algoritmo "Faccat-30"
+// Disciplina   : [Lógica de Programação em JS]
+// Professor    : Jailson
+// Descrição    :30) Ler 3 valores (considere que não serão informados valores
+// iguais) e escrevê-los em ordem crescente.
+// Aluno        : Leticia Vitoria
+// Data atual   : 26/09/2026
+
+Var
+   // Seção de Declarações das variáveis
+   valor1, valor2, valor3: inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreva("Valor 1: ")
+   leia(valor1)
+   Escreva("Valor 2: ")
+   leia(valor2)
+   Escreva("Valor 3: ")
+   leia(valor3)
+
+   se (valor1 < valor2) e (valor1 < valor3) entao
+      Escreval(valor1)
+
+      se valor2 < valor3 entao
+         Escreval(valor2)
+         Escreval(valor3)
+      senao
+         Escreval(valor3)
+         Escreval(valor2)
+      fimse
+
+   senao
+      se (valor2 < valor1) e (valor2 < valor3) entao
+         Escreval(valor2)
+
+         se valor1 < valor3 entao
+            Escreval(valor1)
+            Escreval(valor3)
+         senao
+            Escreval(valor3)
+            Escreval(valor1)
+         fimse
+
+      senao
+         Escreval(valor3)
+
+         se valor1 < valor2 entao
+            Escreval(valor1)
+            Escreval(valor2)
+         senao
+            Escreval(valor2)
+            Escreval(valor1)
+         fimse
+      fimse
+   fimse
+Fimalgoritmo
